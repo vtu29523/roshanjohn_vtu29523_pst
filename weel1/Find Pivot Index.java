@@ -10,7 +10,7 @@ class Solution {
 
         int leftSum = 0;
 
-        // Find pivot index
+        // Find pivot 
         for (int i = 0; i < nums.length; i++) {
 
             int rightSum = totalSum - leftSum - nums[i];
